@@ -1,0 +1,45 @@
+ body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .navbar {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+ .links {
+    margin-left: auto;
+    display: flex;
+    align-items: end;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px; 
+    font-size: 25px;
+} 
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+}
+
+.logo svg {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 30px;
+}  */
