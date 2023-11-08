@@ -9,12 +9,16 @@ export const NavBar = () => {
     <>
       <Navbar fixed='top'  fluid bg="dark" data-bs-theme="dark">
         <Container >
-          <Navbar.Brand href="#home"><FontAwesomeIcon icon={faComputerMouse} /> Ecomm</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Link to={'/'}>
+            <Navbar.Brand href="#home"><FontAwesomeIcon icon={faComputerMouse} /> Ecomm</Navbar.Brand>
+          </Link>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
           <Nav className="me-auto">
-          <Link to= "/" className='nav-link' >Shop</Link>
-          <Link to="/" className='nav-link' >
+          <Link to= {"/category/shirt"} className='nav-link' >Shirts</Link>
+          <Link to= {"/category/short"} className='nav-link' >Shorts</Link>
+          <Link to= {"/category/shoe"} className='nav-link' >Shoes</Link>
+          <Link className='nav-link' >
             <CartWidget />
           </Link>
           </Nav>

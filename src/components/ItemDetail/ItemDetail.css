@@ -1,0 +1,42 @@
+article {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transition: transform 0.2s;
+    width: 300px;
+  }
+  
+  article:hover {
+    transform: translateY(-5px);
+  }
+  
+  header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
